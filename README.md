@@ -6,3 +6,9 @@ The original paper can be found here <https://papers.nips.cc/paper/4824-imagenet
 
 In this project, I try to reproduce the AlexNet architecture and train it on the CIFAR-10 dataset using the tensorflow 2 API
 
+<img src="images\architecture.png">
+
+
+
+The AlexNet architecture consists of five convolutional layers, some of which are followed by maximum pooling layers and then three fully-connected layers and finally a 1000-way softmax classifier. In the original paper, all the layers are divided into two to train them on separate GPUs. We will be implementing it as a single layer concept.
+
